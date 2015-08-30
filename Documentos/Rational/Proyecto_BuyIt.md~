@@ -630,6 +630,7 @@
 					line_style 	0)))))))
 	    (object Class_Category "Modelo de Caso de Uso del Neogocio"
 		quid       	"55E09A1E02D4"
+		stereotype 	"Business Use Case Model"
 		exportControl 	"Public"
 		logical_models 	(list unit_reference_list
 		    (object Association "$UNNAMED$3"
@@ -730,6 +731,7 @@
 				quidu      	"55E09D0E02BB")))
 		    (object Class_Category "Actores del Negocio"
 			quid       	"55E09A52038C"
+			stereotype 	"Business System"
 			exportControl 	"Public"
 			logical_models 	(list unit_reference_list
 			    (object Class "Cliente"
@@ -747,6 +749,7 @@
 			logical_presentations 	(list unit_reference_list))
 		    (object Class_Category "Casos de Uso del Negocio"
 			quid       	"55E09A6000DF"
+			stereotype 	"Business System"
 			exportControl 	"Public"
 			logical_models 	(list unit_reference_list
 			    (object UseCase "Realizar Pedido"
@@ -776,10 +779,10 @@
 			max_height 	28350
 			max_width  	21600
 			origin_x   	0
-			origin_y   	385
+			origin_y   	375
 			items      	(list diagram_item_list
-			    (object UseCaseView "Use Case View::Modelo de Caso de Uso del Neogocio::Casos de Uso del Negocio::Realizar Pedido" @20
-				location   	(1232, 352)
+			    (object UseCaseView "Use Case View::Modelo de Caso de Uso del Neogocio::Casos de Uso del Negocio::Realizar Entrega" @20
+				location   	(2032, 704)
 				font       	(object Font
 				    size       	9
 				    face       	"Arial"
@@ -791,44 +794,19 @@
 				    default_color 	TRUE)
 				label      	(object ItemLabel
 				    Parent_View 	@20
-				    location   	(1231, 527)
+				    location   	(2031, 879)
 				    anchor_loc 	1
 				    nlines     	2
 				    max_width  	879
 				    justify    	0
-				    label      	"Realizar Pedido")
+				    label      	"Realizar Entrega")
 				icon       	"Business Use Case"
 				icon_style 	"Icon"
 				line_color 	3342489
 				fill_color 	13434879
-				quidu      	"55E09C5302D8"
+				quidu      	"55E09F370216"
 				width      	306)
-			    (object UseCaseView "Use Case View::Modelo de Caso de Uso del Neogocio::Casos de Uso del Negocio::Realizar Pago de Productos" @21
-				location   	(1232, 1296)
-				font       	(object Font
-				    size       	9
-				    face       	"Arial"
-				    bold       	FALSE
-				    italics    	FALSE
-				    underline  	FALSE
-				    strike     	FALSE
-				    color      	0
-				    default_color 	TRUE)
-				label      	(object ItemLabel
-				    Parent_View 	@21
-				    location   	(1231, 1471)
-				    anchor_loc 	1
-				    nlines     	2
-				    max_width  	879
-				    justify    	0
-				    label      	"Realizar Pago de Productos")
-				icon       	"Business Use Case"
-				icon_style 	"Icon"
-				line_color 	3342489
-				fill_color 	13434879
-				quidu      	"55E09E4902CF"
-				width      	306)
-			    (object ClassView "Class" "Use Case View::Modelo de Caso de Uso del Neogocio::Actores del Negocio::Jefe de Logística" @22
+			    (object ClassView "Class" "Use Case View::Modelo de Caso de Uso del Neogocio::Actores del Negocio::Jefe de Logística" @21
 				ShowCompartmentStereotypes 	TRUE
 				SuppressAttribute 	TRUE
 				SuppressOperation 	TRUE
@@ -845,7 +823,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@22
+				    Parent_View 	@21
 				    location   	(2687, 912)
 				    anchor_loc 	1
 				    nlines     	2
@@ -860,98 +838,7 @@
 				width      	202
 				annotation 	8
 				autoResize 	TRUE)
-			    (object UseCaseView "Use Case View::Modelo de Caso de Uso del Neogocio::Casos de Uso del Negocio::Realizar Entrega" @23
-				location   	(2032, 704)
-				font       	(object Font
-				    size       	9
-				    face       	"Arial"
-				    bold       	FALSE
-				    italics    	FALSE
-				    underline  	FALSE
-				    strike     	FALSE
-				    color      	0
-				    default_color 	TRUE)
-				label      	(object ItemLabel
-				    Parent_View 	@23
-				    location   	(2031, 879)
-				    anchor_loc 	1
-				    nlines     	2
-				    max_width  	879
-				    justify    	0
-				    label      	"Realizar Entrega")
-				icon       	"Business Use Case"
-				icon_style 	"Icon"
-				line_color 	3342489
-				fill_color 	13434879
-				quidu      	"55E09F370216"
-				width      	306)
-			    (object AssociationViewNew "$UNNAMED$9" @24
-				location   	(1631, 526)
-				font       	(object Font
-				    size       	9
-				    face       	"Arial"
-				    bold       	FALSE
-				    italics    	FALSE
-				    underline  	FALSE
-				    strike     	FALSE
-				    color      	0
-				    default_color 	TRUE)
-				stereotype 	TRUE
-				line_color 	3342489
-				quidu      	"55E09F440034"
-				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$10" @25
-					Parent_View 	@24
-					location   	(399, 174)
-					stereotype 	TRUE
-					line_color 	3342489
-					quidu      	"55E09F440305"
-					client     	@24
-					supplier   	@23
-					line_style 	0)
-				    (object RoleView "$UNNAMED$11" @26
-					Parent_View 	@24
-					location   	(399, 174)
-					stereotype 	TRUE
-					line_color 	3342489
-					quidu      	"55E09F440307"
-					client     	@24
-					supplier   	@20
-					line_style 	0)))
-			    (object AssociationViewNew "$UNNAMED$12" @27
-				location   	(1615, 1008)
-				font       	(object Font
-				    size       	9
-				    face       	"Arial"
-				    bold       	FALSE
-				    italics    	FALSE
-				    underline  	FALSE
-				    strike     	FALSE
-				    color      	0
-				    default_color 	TRUE)
-				stereotype 	TRUE
-				line_color 	3342489
-				quidu      	"55E09F460374"
-				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$13" @28
-					Parent_View 	@27
-					location   	(-353, 544)
-					stereotype 	TRUE
-					line_color 	3342489
-					quidu      	"55E09F4703E5"
-					client     	@27
-					supplier   	@21
-					line_style 	0)
-				    (object RoleView "$UNNAMED$14" @29
-					Parent_View 	@27
-					location   	(-353, 544)
-					stereotype 	TRUE
-					line_color 	3342489
-					quidu      	"55E09F4703E7"
-					client     	@27
-					supplier   	@23
-					line_style 	0)))
-			    (object AssociationViewNew "$UNNAMED$15" @30
+			    (object AssociationViewNew "$UNNAMED$15" @22
 				location   	(2384, 704)
 				font       	(object Font
 				    size       	9
@@ -966,25 +853,166 @@
 				line_color 	3342489
 				quidu      	"55E09F7B00AC"
 				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$16" @31
-					Parent_View 	@30
+				    (object RoleView "$UNNAMED$16" @23
+					Parent_View 	@22
 					location   	(-320, -192)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"55E09F7B02AF"
-					client     	@30
-					supplier   	@23
+					client     	@22
+					supplier   	@20
 					line_style 	0)
-				    (object RoleView "$UNNAMED$17" @32
-					Parent_View 	@30
+				    (object RoleView "$UNNAMED$17" @24
+					Parent_View 	@22
 					location   	(-320, -192)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"55E09F7B02B1"
-					client     	@30
-					supplier   	@22
+					client     	@22
+					supplier   	@21
 					line_style 	0)))
-			    (object ClassView "Class" "Use Case View::Modelo de Caso de Uso del Neogocio::Actores del Negocio::Cliente" @33
+			    (object UseCaseView "Use Case View::Modelo de Caso de Uso del Neogocio::Casos de Uso del Negocio::Realizar Pedido" @25
+				location   	(1232, 352)
+				font       	(object Font
+				    size       	9
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@25
+				    location   	(1231, 527)
+				    anchor_loc 	1
+				    nlines     	2
+				    max_width  	879
+				    justify    	0
+				    label      	"Realizar Pedido")
+				icon       	"Business Use Case"
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"55E09C5302D8"
+				width      	306)
+			    (object AssociationViewNew "$UNNAMED$9" @26
+				location   	(1631, 526)
+				font       	(object Font
+				    size       	9
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"55E09F440034"
+				roleview_list 	(list RoleViews
+				    (object RoleView "$UNNAMED$10" @27
+					Parent_View 	@26
+					location   	(399, 174)
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"55E09F440305"
+					client     	@26
+					supplier   	@20
+					line_style 	0)
+				    (object RoleView "$UNNAMED$11" @28
+					Parent_View 	@26
+					location   	(399, 174)
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"55E09F440307"
+					client     	@26
+					supplier   	@25
+					line_style 	0)))
+			    (object UseCaseView "Use Case View::Modelo de Caso de Uso del Neogocio::Casos de Uso del Negocio::Realizar Pago de Productos" @29
+				location   	(1232, 1296)
+				font       	(object Font
+				    size       	9
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@29
+				    location   	(1231, 1471)
+				    anchor_loc 	1
+				    nlines     	2
+				    max_width  	879
+				    justify    	0
+				    label      	"Realizar Pago de Productos")
+				icon       	"Business Use Case"
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"55E09E4902CF"
+				width      	306)
+			    (object AssociationViewNew "$UNNAMED$12" @30
+				location   	(1615, 1008)
+				font       	(object Font
+				    size       	9
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"55E09F460374"
+				roleview_list 	(list RoleViews
+				    (object RoleView "$UNNAMED$13" @31
+					Parent_View 	@30
+					location   	(-353, 544)
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"55E09F4703E5"
+					client     	@30
+					supplier   	@29
+					line_style 	0)
+				    (object RoleView "$UNNAMED$14" @32
+					Parent_View 	@30
+					location   	(-353, 544)
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"55E09F4703E7"
+					client     	@30
+					supplier   	@20
+					line_style 	0)))
+			    (object UseCaseView "Use Case View::Modelo de Caso de Uso del Neogocio::Casos de Uso del Negocio::Gestionar Pedido" @33
+				location   	(1232, 784)
+				font       	(object Font
+				    size       	9
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@33
+				    location   	(1231, 959)
+				    anchor_loc 	1
+				    nlines     	2
+				    max_width  	879
+				    justify    	0
+				    label      	"Gestionar Pedido")
+				icon       	"Business Use Case"
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"55E09F910363"
+				width      	306)
+			    (object ClassView "Class" "Use Case View::Modelo de Caso de Uso del Neogocio::Actores del Negocio::Cliente" @34
 				ShowCompartmentStereotypes 	TRUE
 				SuppressAttribute 	TRUE
 				SuppressOperation 	TRUE
@@ -1001,7 +1029,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@33
+				    Parent_View 	@34
 				    location   	(239, 992)
 				    anchor_loc 	1
 				    nlines     	2
@@ -1016,7 +1044,7 @@
 				width      	202
 				annotation 	8
 				autoResize 	TRUE)
-			    (object AssociationViewNew "$UNNAMED$3" @34
+			    (object AssociationViewNew "$UNNAMED$3" @35
 				location   	(708, 575)
 				font       	(object Font
 				    size       	9
@@ -1031,25 +1059,25 @@
 				line_color 	3342489
 				quidu      	"55E09E5C0205"
 				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$4" @35
-					Parent_View 	@34
+				    (object RoleView "$UNNAMED$4" @36
+					Parent_View 	@35
 					location   	(324, 223)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"55E09E5D00A1"
-					client     	@34
-					supplier   	@20
+					client     	@35
+					supplier   	@25
 					line_style 	0)
-				    (object RoleView "$UNNAMED$5" @36
-					Parent_View 	@34
+				    (object RoleView "$UNNAMED$5" @37
+					Parent_View 	@35
 					location   	(324, 223)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"55E09E5D00A3"
-					client     	@34
-					supplier   	@33
+					client     	@35
+					supplier   	@34
 					line_style 	0)))
-			    (object AssociationViewNew "$UNNAMED$6" @37
+			    (object AssociationViewNew "$UNNAMED$6" @38
 				location   	(708, 1023)
 				font       	(object Font
 				    size       	9
@@ -1064,49 +1092,24 @@
 				line_color 	3342489
 				quidu      	"55E09E5E02FB"
 				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$7" @38
-					Parent_View 	@37
+				    (object RoleView "$UNNAMED$7" @39
+					Parent_View 	@38
 					location   	(324, 671)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"55E09E5F031D"
-					client     	@37
-					supplier   	@21
+					client     	@38
+					supplier   	@29
 					line_style 	0)
-				    (object RoleView "$UNNAMED$8" @39
-					Parent_View 	@37
+				    (object RoleView "$UNNAMED$8" @40
+					Parent_View 	@38
 					location   	(324, 671)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"55E09E5F031F"
-					client     	@37
-					supplier   	@33
+					client     	@38
+					supplier   	@34
 					line_style 	0)))
-			    (object UseCaseView "Use Case View::Modelo de Caso de Uso del Neogocio::Casos de Uso del Negocio::Gestionar Pedido" @40
-				location   	(1232, 784)
-				font       	(object Font
-				    size       	9
-				    face       	"Arial"
-				    bold       	FALSE
-				    italics    	FALSE
-				    underline  	FALSE
-				    strike     	FALSE
-				    color      	0
-				    default_color 	TRUE)
-				label      	(object ItemLabel
-				    Parent_View 	@40
-				    location   	(1231, 959)
-				    anchor_loc 	1
-				    nlines     	2
-				    max_width  	879
-				    justify    	0
-				    label      	"Gestionar Pedido")
-				icon       	"Business Use Case"
-				icon_style 	"Icon"
-				line_color 	3342489
-				fill_color 	13434879
-				quidu      	"55E09F910363"
-				width      	306)
 			    (object AssociationViewNew "$UNNAMED$18" @41
 				location   	(708, 784)
 				font       	(object Font
@@ -1129,7 +1132,7 @@
 					line_color 	3342489
 					quidu      	"55E09FA50374"
 					client     	@41
-					supplier   	@40
+					supplier   	@33
 					line_style 	0)
 				    (object RoleView "$UNNAMED$20" @43
 					Parent_View 	@41
@@ -1138,9 +1141,34 @@
 					line_color 	3342489
 					quidu      	"55E09FA50376"
 					client     	@41
-					supplier   	@33
+					supplier   	@34
 					line_style 	0)))
-			    (object ClassView "Class" "Use Case View::Modelo de Caso de Uso del Neogocio::Actores del Negocio::Proveedor" @44
+			    (object UseCaseView "Use Case View::Modelo de Caso de Uso del Neogocio::Casos de Uso del Negocio::Gestionar Producto" @44
+				location   	(2048, 1264)
+				font       	(object Font
+				    size       	9
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@44
+				    location   	(2047, 1439)
+				    anchor_loc 	1
+				    nlines     	2
+				    max_width  	879
+				    justify    	0
+				    label      	"Gestionar Producto")
+				icon       	"Business Use Case"
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"55E09FD3011C"
+				width      	306)
+			    (object ClassView "Class" "Use Case View::Modelo de Caso de Uso del Neogocio::Actores del Negocio::Proveedor" @45
 				ShowCompartmentStereotypes 	TRUE
 				SuppressAttribute 	TRUE
 				SuppressOperation 	TRUE
@@ -1157,7 +1185,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@44
+				    Parent_View 	@45
 				    location   	(2767, 1472)
 				    anchor_loc 	1
 				    nlines     	2
@@ -1172,31 +1200,6 @@
 				width      	202
 				annotation 	8
 				autoResize 	TRUE)
-			    (object UseCaseView "Use Case View::Modelo de Caso de Uso del Neogocio::Casos de Uso del Negocio::Gestionar Producto" @45
-				location   	(2048, 1264)
-				font       	(object Font
-				    size       	9
-				    face       	"Arial"
-				    bold       	FALSE
-				    italics    	FALSE
-				    underline  	FALSE
-				    strike     	FALSE
-				    color      	0
-				    default_color 	TRUE)
-				label      	(object ItemLabel
-				    Parent_View 	@45
-				    location   	(2047, 1439)
-				    anchor_loc 	1
-				    nlines     	2
-				    max_width  	879
-				    justify    	0
-				    label      	"Gestionar Producto")
-				icon       	"Business Use Case"
-				icon_style 	"Icon"
-				line_color 	3342489
-				fill_color 	13434879
-				quidu      	"55E09FD3011C"
-				width      	306)
 			    (object AssociationViewNew "$UNNAMED$21" @46
 				location   	(2433, 1264)
 				font       	(object Font
@@ -1219,7 +1222,7 @@
 					line_color 	3342489
 					quidu      	"55E09FDF0278"
 					client     	@46
-					supplier   	@45
+					supplier   	@44
 					line_style 	0)
 				    (object RoleView "$UNNAMED$23" @48
 					Parent_View 	@46
@@ -1228,7 +1231,7 @@
 					line_color 	3342489
 					quidu      	"55E09FDF027A"
 					client     	@46
-					supplier   	@44
+					supplier   	@45
 					line_style 	0)))
 			    (object NoteView @49
 				location   	(464, 304)
@@ -1252,7 +1255,32 @@
 				fill_color 	13434879
 				width      	665
 				height     	217)
-			    (object ClassView "Class" "Use Case View::Modelo de Caso de Uso del Neogocio::Actores del Negocio::Administrador" @50
+			    (object UseCaseView "Use Case View::Modelo de Caso de Uso del Neogocio::Casos de Uso del Negocio::Realizar Pago a Proveedores" @50
+				location   	(1232, 1760)
+				font       	(object Font
+				    size       	9
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@50
+				    location   	(1231, 1935)
+				    anchor_loc 	1
+				    nlines     	2
+				    max_width  	879
+				    justify    	0
+				    label      	"Realizar Pago a Proveedores")
+				icon       	"Business Use Case"
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"55E0A1BB035C"
+				width      	306)
+			    (object ClassView "Class" "Use Case View::Modelo de Caso de Uso del Neogocio::Actores del Negocio::Administrador" @51
 				ShowCompartmentStereotypes 	TRUE
 				SuppressAttribute 	TRUE
 				SuppressOperation 	TRUE
@@ -1269,7 +1297,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@50
+				    Parent_View 	@51
 				    location   	(303, 1968)
 				    anchor_loc 	1
 				    nlines     	2
@@ -1284,31 +1312,6 @@
 				width      	202
 				annotation 	8
 				autoResize 	TRUE)
-			    (object UseCaseView "Use Case View::Modelo de Caso de Uso del Neogocio::Casos de Uso del Negocio::Realizar Pago a Proveedores" @51
-				location   	(1232, 1760)
-				font       	(object Font
-				    size       	9
-				    face       	"Arial"
-				    bold       	FALSE
-				    italics    	FALSE
-				    underline  	FALSE
-				    strike     	FALSE
-				    color      	0
-				    default_color 	TRUE)
-				label      	(object ItemLabel
-				    Parent_View 	@51
-				    location   	(1231, 1935)
-				    anchor_loc 	1
-				    nlines     	2
-				    max_width  	879
-				    justify    	0
-				    label      	"Realizar Pago a Proveedores")
-				icon       	"Business Use Case"
-				icon_style 	"Icon"
-				line_color 	3342489
-				fill_color 	13434879
-				quidu      	"55E0A1BB035C"
-				width      	306)
 			    (object AssociationViewNew "$UNNAMED$24" @52
 				location   	(741, 1760)
 				font       	(object Font
@@ -1331,7 +1334,7 @@
 					line_color 	3342489
 					quidu      	"55E0A243012B"
 					client     	@52
-					supplier   	@51
+					supplier   	@50
 					line_style 	0)
 				    (object RoleView "$UNNAMED$26" @54
 					Parent_View 	@52
@@ -1340,13 +1343,13 @@
 					line_color 	3342489
 					quidu      	"55E0A243012D"
 					client     	@52
-					supplier   	@50
+					supplier   	@51
 					line_style 	0)))
 			    (object AttachView "" @55
 				stereotype 	TRUE
 				line_color 	3342489
 				client     	@49
-				supplier   	@40
+				supplier   	@33
 				line_style 	0))))))
 	logical_presentations 	(list unit_reference_list
 	    (object UseCaseDiagram "Main"
@@ -2065,7 +2068,450 @@
 				line_color 	3342489
 				fill_color 	13434879
 				width      	700
-				height     	275))))))
+				height     	275)))))
+	    (object Class_Category "Modelo de Analisis"
+		quid       	"55E2A3C5022F"
+		stereotype 	"Business Analysis Model"
+		exportControl 	"Public"
+		logical_models 	(list unit_reference_list
+		    (object UseCase "RN_Realizar Pedido"
+			quid       	"55E2A7C3021C"
+			stereotype 	"Business Use Case Realization"
+			superclasses 	(list inheritance_relationship_list
+			    (object Inheritance_Relationship
+				quid       	"55E2A80C022B"
+				supplier   	"Use Case View::Modelo de Caso de Uso del Neogocio::Casos de Uso del Negocio::Realizar Pedido"
+				quidu      	"55E09C5302D8"))
+			statemachine 	(object State_Machine "State/Activity Model"
+			    quid       	"55E2A850032C"
+			    states     	(list States)
+			    partitions 	(list Partitions
+				(object Partition "Cliente"
+				    quid       	"55E2A8880105"
+				    persistence 	"Transient"
+				    creationObj 	FALSE
+				    multi      	FALSE)
+				(object Partition "Sistema"
+				    quid       	"55E2A88C0211"
+				    persistence 	"Transient"
+				    creationObj 	FALSE
+				    multi      	FALSE))
+			    objects    	(list Objects)
+			    statediagrams 	(list StateDiagrams
+				(object ActivityDiagram "DAN_Realizar Pedido"
+				    quid       	"55E2A8500330"
+				    title      	"DAN_Realizar Pedido"
+				    zoom       	100
+				    max_height 	28350
+				    max_width  	21600
+				    origin_x   	0
+				    origin_y   	0
+				    items      	(list diagram_item_list
+					(object Swimlane "" @76
+					    location   	(1226, 0)
+					    line_color 	3342489
+					    width      	450)
+					(object Swimlane "Cliente" @77
+					    line_color 	3342489
+					    quidu      	"55E2A8880105"
+					    width      	616)
+					(object Swimlane "Sistema" @78
+					    location   	(616, 0)
+					    line_color 	3342489
+					    quidu      	"55E2A88C0211"
+					    width      	610))))))
+		    (object UseCase "RN_Gestionar Pedido"
+			quid       	"55E2A7CF0093"
+			stereotype 	"Business Use Case Realization"
+			superclasses 	(list inheritance_relationship_list
+			    (object Inheritance_Relationship
+				quid       	"55E2A80F0193"
+				supplier   	"Use Case View::Modelo de Caso de Uso del Neogocio::Casos de Uso del Negocio::Gestionar Pedido"
+				quidu      	"55E09F910363")))
+		    (object UseCase "RN_Realizar Entrega"
+			quid       	"55E2A7D903CF"
+			stereotype 	"Business Use Case Realization"
+			superclasses 	(list inheritance_relationship_list
+			    (object Inheritance_Relationship
+				quid       	"55E2A8110291"
+				supplier   	"Use Case View::Modelo de Caso de Uso del Neogocio::Casos de Uso del Negocio::Realizar Entrega"
+				quidu      	"55E09F370216")))
+		    (object UseCase "RN_Realizar Pago de Productos"
+			quid       	"55E2A7E4032E"
+			stereotype 	"Business Use Case Realization"
+			superclasses 	(list inheritance_relationship_list
+			    (object Inheritance_Relationship
+				quid       	"55E2A8140282"
+				supplier   	"Use Case View::Modelo de Caso de Uso del Neogocio::Casos de Uso del Negocio::Realizar Pago de Productos"
+				quidu      	"55E09E4902CF")))
+		    (object UseCase "RN_Gestionar Productos"
+			quid       	"55E2A7F002D9"
+			stereotype 	"Business Use Case Realization"
+			superclasses 	(list inheritance_relationship_list
+			    (object Inheritance_Relationship
+				quid       	"55E2A81802A9"
+				supplier   	"Use Case View::Modelo de Caso de Uso del Neogocio::Casos de Uso del Negocio::Gestionar Producto"
+				quidu      	"55E09FD3011C")))
+		    (object UseCase "RN_Realizar Pago a Proveedores"
+			quid       	"55E2A7FD0043"
+			stereotype 	"Business Use Case Realization"
+			superclasses 	(list inheritance_relationship_list
+			    (object Inheritance_Relationship
+				quid       	"55E2A81C0039"
+				supplier   	"Use Case View::Modelo de Caso de Uso del Neogocio::Casos de Uso del Negocio::Realizar Pago a Proveedores"
+				quidu      	"55E0A1BB035C"))))
+		logical_presentations 	(list unit_reference_list
+		    (object UseCaseDiagram "Diagrama de realizacion del negocio"
+			quid       	"55E2A3E202BB"
+			title      	"Diagrama de realizacion del negocio"
+			zoom       	100
+			max_height 	28350
+			max_width  	21600
+			origin_x   	0
+			origin_y   	0
+			items      	(list diagram_item_list
+			    (object UseCaseView "Use Case View::Modelo de Caso de Uso del Neogocio::Casos de Uso del Negocio::Gestionar Pedido" @79
+				location   	(512, 640)
+				font       	(object Font
+				    size       	9
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@79
+				    location   	(511, 815)
+				    anchor_loc 	1
+				    nlines     	2
+				    max_width  	879
+				    justify    	0
+				    label      	"Gestionar Pedido")
+				icon       	"Business Use Case"
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"55E09F910363")
+			    (object UseCaseView "Use Case View::Modelo de Caso de Uso del Neogocio::Casos de Uso del Negocio::Gestionar Producto" @80
+				location   	(1952, 656)
+				font       	(object Font
+				    size       	9
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@80
+				    location   	(1951, 831)
+				    anchor_loc 	1
+				    nlines     	2
+				    max_width  	879
+				    justify    	0
+				    label      	"Gestionar Producto")
+				icon       	"Business Use Case"
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"55E09FD3011C")
+			    (object UseCaseView "Use Case View::Modelo de Caso de Uso del Neogocio::Casos de Uso del Negocio::Realizar Pago a Proveedores" @81
+				location   	(1968, 1072)
+				font       	(object Font
+				    size       	9
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@81
+				    location   	(1967, 1247)
+				    anchor_loc 	1
+				    nlines     	2
+				    max_width  	879
+				    justify    	0
+				    label      	"Realizar Pago a Proveedores")
+				icon       	"Business Use Case"
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"55E0A1BB035C")
+			    (object UseCaseView "Use Case View::Modelo de Caso de Uso del Neogocio::Casos de Uso del Negocio::Realizar Pago de Productos" @82
+				location   	(1952, 240)
+				font       	(object Font
+				    size       	9
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@82
+				    location   	(1951, 415)
+				    anchor_loc 	1
+				    nlines     	2
+				    max_width  	879
+				    justify    	0
+				    label      	"Realizar Pago de Productos")
+				icon       	"Business Use Case"
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"55E09E4902CF")
+			    (object UseCaseView "Use Case View::Modelo de Caso de Uso del Neogocio::Casos de Uso del Negocio::Realizar Entrega" @83
+				location   	(512, 1072)
+				font       	(object Font
+				    size       	9
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@83
+				    location   	(511, 1247)
+				    anchor_loc 	1
+				    nlines     	2
+				    max_width  	879
+				    justify    	0
+				    label      	"Realizar Entrega")
+				icon       	"Business Use Case"
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"55E09F370216")
+			    (object UseCaseView "Use Case View::Modelo de Caso de Uso del Neogocio::Casos de Uso del Negocio::Realizar Pedido" @84
+				location   	(512, 240)
+				font       	(object Font
+				    size       	9
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@84
+				    location   	(511, 415)
+				    anchor_loc 	1
+				    nlines     	2
+				    max_width  	879
+				    justify    	0
+				    label      	"Realizar Pedido")
+				icon       	"Business Use Case"
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"55E09C5302D8")
+			    (object UseCaseView "Logical View::Modelo de Analisis::RN_Realizar Pedido" @85
+				location   	(1152, 240)
+				font       	(object Font
+				    size       	9
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@85
+				    location   	(1151, 416)
+				    anchor_loc 	1
+				    nlines     	2
+				    max_width  	879
+				    justify    	0
+				    label      	"RN_Realizar Pedido")
+				icon       	"Business Use Case Realization"
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"55E2A7C3021C"
+				width      	306
+				height     	194)
+			    (object UseCaseView "Logical View::Modelo de Analisis::RN_Gestionar Pedido" @86
+				location   	(1152, 640)
+				font       	(object Font
+				    size       	9
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@86
+				    location   	(1151, 816)
+				    anchor_loc 	1
+				    nlines     	2
+				    max_width  	879
+				    justify    	0
+				    label      	"RN_Gestionar Pedido")
+				icon       	"Business Use Case Realization"
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"55E2A7CF0093"
+				width      	306
+				height     	194)
+			    (object UseCaseView "Logical View::Modelo de Analisis::RN_Realizar Entrega" @87
+				location   	(1152, 1072)
+				font       	(object Font
+				    size       	9
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@87
+				    location   	(1151, 1248)
+				    anchor_loc 	1
+				    nlines     	2
+				    max_width  	879
+				    justify    	0
+				    label      	"RN_Realizar Entrega")
+				icon       	"Business Use Case Realization"
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"55E2A7D903CF"
+				width      	306
+				height     	194)
+			    (object UseCaseView "Logical View::Modelo de Analisis::RN_Realizar Pago de Productos" @88
+				location   	(2656, 240)
+				font       	(object Font
+				    size       	9
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@88
+				    location   	(2655, 416)
+				    anchor_loc 	1
+				    nlines     	2
+				    max_width  	879
+				    justify    	0
+				    label      	"RN_Realizar Pago de Productos")
+				icon       	"Business Use Case Realization"
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"55E2A7E4032E"
+				width      	306
+				height     	194)
+			    (object UseCaseView "Logical View::Modelo de Analisis::RN_Gestionar Productos" @89
+				location   	(2656, 656)
+				font       	(object Font
+				    size       	9
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@89
+				    location   	(2655, 832)
+				    anchor_loc 	1
+				    nlines     	2
+				    max_width  	879
+				    justify    	0
+				    label      	"RN_Gestionar Productos")
+				icon       	"Business Use Case Realization"
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"55E2A7F002D9"
+				width      	306
+				height     	194)
+			    (object UseCaseView "Logical View::Modelo de Analisis::RN_Realizar Pago a Proveedores" @90
+				location   	(2672, 1072)
+				font       	(object Font
+				    size       	9
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@90
+				    location   	(2671, 1248)
+				    anchor_loc 	1
+				    nlines     	2
+				    max_width  	879
+				    justify    	0
+				    label      	"RN_Realizar Pago a Proveedores")
+				icon       	"Business Use Case Realization"
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"55E2A7FD0043"
+				width      	306
+				height     	194)
+			    (object InheritView "" @91
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"55E2A80C022B"
+				client     	@85
+				supplier   	@84
+				line_style 	0)
+			    (object InheritView "" @92
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"55E2A80F0193"
+				client     	@86
+				supplier   	@79
+				line_style 	0)
+			    (object InheritView "" @93
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"55E2A8110291"
+				client     	@87
+				supplier   	@83
+				line_style 	0)
+			    (object InheritView "" @94
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"55E2A8140282"
+				client     	@88
+				supplier   	@82
+				line_style 	0)
+			    (object InheritView "" @95
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"55E2A81802A9"
+				client     	@89
+				supplier   	@80
+				line_style 	0)
+			    (object InheritView "" @96
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"55E2A81C0039"
+				client     	@90
+				supplier   	@81
+				line_style 	0))))))
 	logical_presentations 	(list unit_reference_list
 	    (object ClassDiagram "Welcome"
 		quid       	"3512226B0028"
@@ -2087,7 +2533,7 @@
 		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object NoteView @76
+		    (object NoteView @97
 			location   	(768, 384)
 			font       	(object Font
 			    size       	9
@@ -2099,7 +2545,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@76
+			    Parent_View 	@97
 			    location   	(121, 96)
 			    fill_color 	13434879
 			    nlines     	14
@@ -2158,7 +2604,7 @@
 			origin_x   	0
 			origin_y   	0
 			items      	(list diagram_item_list
-			    (object NoteView @77
+			    (object NoteView @98
 				location   	(624, 160)
 				font       	(object Font
 				    size       	9
@@ -2170,7 +2616,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@77
+				    Parent_View 	@98
 				    location   	(21, 26)
 				    fill_color 	13434879
 				    nlines     	5
@@ -2196,7 +2642,7 @@
 		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object SubSysView "Component View::Implementation Model" @78
+		    (object SubSysView "Component View::Implementation Model" @99
 			location   	(736, 800)
 			font       	(object Font
 			    size       	9
@@ -2208,7 +2654,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@78
+			    Parent_View 	@99
 			    location   	(552, 713)
 			    fill_color 	13434879
 			    nlines     	2
@@ -2269,7 +2715,7 @@
 		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object ProcessorView "<processor name>" @79
+		    (object ProcessorView "<processor name>" @100
 			location   	(512, 1056)
 			font       	(object Font
 			    size       	9
@@ -2281,7 +2727,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@79
+			    Parent_View 	@100
 			    location   	(276, 900)
 			    nlines     	2
 			    max_width  	400
@@ -2292,7 +2738,7 @@
 			width      	475
 			height     	381
 			annotation 	3)
-		    (object DeviceView "<device name>" @80
+		    (object DeviceView "<device name>" @101
 			location   	(1040, 1056)
 			font       	(object Font
 			    size       	9
@@ -2304,7 +2750,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@80
+			    Parent_View 	@101
 			    location   	(867, 950)
 			    nlines     	2
 			    max_width  	275
@@ -2315,13 +2761,13 @@
 			width      	350
 			height     	282
 			annotation 	0)
-		    (object ConnectionView "" @81
+		    (object ConnectionView "" @102
 			stereotype 	TRUE
 			quidu      	"34DBBD4B008C"
-			client     	@79
-			supplier   	@80
+			client     	@100
+			supplier   	@101
 			line_style 	0)
-		    (object NoteView @82
+		    (object NoteView @103
 			location   	(816, 304)
 			font       	(object Font
 			    size       	9
@@ -2333,7 +2779,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@82
+			    Parent_View 	@103
 			    location   	(38, 29)
 			    fill_color 	13434879
 			    nlines     	11
@@ -8797,9 +9243,9 @@
 		    (object Attribute
 			tool       	"Ada95"
 			name       	"TypeEqualityName"
-			value      	
+			value      	(value Text 
 |"="
-			)
+			))
 		    (object Attribute
 			tool       	"Ada95"
 			name       	"InlineEquality"
