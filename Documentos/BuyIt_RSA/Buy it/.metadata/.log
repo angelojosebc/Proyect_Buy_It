@@ -1,0 +1,727 @@
+!SESSION 2015-09-23 11:40:45.769 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows Vista x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_PE
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY org.eclipse.ui 4 4 2015-09-23 11:57:20.211
+!MESSAGE Unable to find Action Set: com.ibm.xtools.pluglets.ui.actionSet
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-09-23 11:59:27.469
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-09-23 11:59:27.481
+!MESSAGE La característica de la extensión no es válida
+!SESSION 2015-09-23 19:04:49.510 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows Vista x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_PE
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-09-23 19:07:10.325
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 4 4 2015-09-23 19:09:09.619
+!MESSAGE Unable to find Action Set: com.ibm.xtools.pluglets.ui.actionSet
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-09-23 19:16:54.714
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-09-23 19:16:54.729
+!MESSAGE La característica de la extensión no es válida
+!SESSION 2015-09-24 10:03:05.052 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows Vista x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_PE
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-09-24 10:05:41.989
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-09-24 10:05:42.052
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY org.eclipse.gmf.runtime.diagram.ui 4 4 2015-09-24 16:58:58.244
+!MESSAGE execute
+!STACK 0
+org.eclipse.core.commands.ExecutionException: While executing the operation, an exception occurred
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(Unknown Source)
+	at org.eclipse.gef.tools.AbstractTool.executeCommand(Unknown Source)
+	at org.eclipse.gef.tools.AbstractTool.executeCurrentCommand(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.tools.DragEditPartsTrackerEx.executeCurrentCommand(Unknown Source)
+	at org.eclipse.gef.tools.DragEditPartsTracker.performDrag(Unknown Source)
+	at org.eclipse.gef.tools.DragEditPartsTracker.handleButtonUp(Unknown Source)
+	at org.eclipse.gef.tools.AbstractTool.mouseUp(Unknown Source)
+	at org.eclipse.gef.tools.SelectionTool.mouseUp(Unknown Source)
+	at org.eclipse.gef.EditDomain.mouseUp(Unknown Source)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseReleased(Unknown Source)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseUp(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+Caused by: org.eclipse.core.runtime.AssertionFailedException: null argument:failed to create a view
+	at org.eclipse.core.runtime.Assert.isNotNull(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.commands.CreateCommand.doExecuteWithResult(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.commands.core.command.AbstractTransactionalCommand.doExecute(Unknown Source)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.commands.ICommandProxy.execute(Unknown Source)
+	at org.eclipse.gef.commands.CompoundCommand.execute(Unknown Source)
+	at org.eclipse.gef.commands.CompoundCommand.execute(Unknown Source)
+	at com.ibm.xtools.uml.ui.diagram.internal.commands.DnDCreateViewElementsCommand.doExecuteWithResult(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.commands.core.command.AbstractTransactionalCommand.doExecute(Unknown Source)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(Unknown Source)
+	... 40 more
+
+!ENTRY org.eclipse.gmf.runtime.diagram.ui 4 4 2015-09-24 16:59:02.555
+!MESSAGE execute
+!STACK 0
+org.eclipse.core.commands.ExecutionException: While executing the operation, an exception occurred
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(Unknown Source)
+	at org.eclipse.gef.tools.AbstractTool.executeCommand(Unknown Source)
+	at org.eclipse.gef.tools.AbstractTool.executeCurrentCommand(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.tools.DragEditPartsTrackerEx.executeCurrentCommand(Unknown Source)
+	at org.eclipse.gef.tools.DragEditPartsTracker.performDrag(Unknown Source)
+	at org.eclipse.gef.tools.DragEditPartsTracker.handleButtonUp(Unknown Source)
+	at org.eclipse.gef.tools.AbstractTool.mouseUp(Unknown Source)
+	at org.eclipse.gef.tools.SelectionTool.mouseUp(Unknown Source)
+	at org.eclipse.gef.EditDomain.mouseUp(Unknown Source)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseReleased(Unknown Source)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseUp(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+Caused by: org.eclipse.core.runtime.AssertionFailedException: null argument:failed to create a view
+	at org.eclipse.core.runtime.Assert.isNotNull(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.commands.CreateCommand.doExecuteWithResult(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.commands.core.command.AbstractTransactionalCommand.doExecute(Unknown Source)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.commands.ICommandProxy.execute(Unknown Source)
+	at org.eclipse.gef.commands.CompoundCommand.execute(Unknown Source)
+	at org.eclipse.gef.commands.CompoundCommand.execute(Unknown Source)
+	at com.ibm.xtools.uml.ui.diagram.internal.commands.DnDCreateViewElementsCommand.doExecuteWithResult(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.commands.core.command.AbstractTransactionalCommand.doExecute(Unknown Source)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(Unknown Source)
+	... 40 more
+!SESSION 2015-09-24 18:23:44.121 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows Vista x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_PE
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-09-24 18:25:09.388
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-09-24 18:25:09.437
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY org.eclipse.ui 4 0 2015-09-24 18:46:09.095
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.gef.editparts.AbstractEditPart.getViewer(Unknown Source)
+	at org.eclipse.gef.tools.SelectEditPartTracker.performDirectEdit(Unknown Source)
+	at org.eclipse.gef.tools.SelectEditPartTracker.handleButtonUp(Unknown Source)
+	at org.eclipse.gef.tools.DragEditPartsTracker.handleButtonUp(Unknown Source)
+	at org.eclipse.gef.tools.AbstractTool.mouseMove(Unknown Source)
+	at org.eclipse.gef.tools.SelectionTool.mouseMove(Unknown Source)
+	at org.eclipse.gef.EditDomain.mouseMove(Unknown Source)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseMoved(Unknown Source)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseMove(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 2 2015-09-24 18:46:09.657
+!MESSAGE Se han producido problemas al invocar el código del plug-in: "org.eclipse.ui.views.properties.tabbed".
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.xtools.modeler.ui.properties.internal.sections.AggregationPropertySection.setInput(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabContents$5.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(Unknown Source)
+	at org.eclipse.jface.util.SafeRunnable.run(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabContents.setInput(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabbedPropertySheetPage$SelectionChangedListener.selectionChanged(Unknown Source)
+	at org.eclipse.jface.viewers.Viewer$2.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(Unknown Source)
+	at org.eclipse.jface.util.SafeRunnable.run(Unknown Source)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(Unknown Source)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(Unknown Source)
+	at org.eclipse.jface.util.OpenStrategy.access$4(Unknown Source)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Unknown Source)
+	at org.eclipse.ui.internal.views.properties.tabbed.view.TabbedPropertyList.select(Unknown Source)
+	at org.eclipse.ui.internal.views.properties.tabbed.view.TabbedPropertyViewer.setSelectionToWidget(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelectionToWidget(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(Unknown Source)
+	at org.eclipse.jface.viewers.Viewer.setSelection(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabbedPropertySheetPage.setInput(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabbedPropertySheetPage.selectionChanged(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.properties.views.PropertiesBrowserPage.selectionChanged(Unknown Source)
+	at org.eclipse.ui.views.properties.PropertySheet.selectionChanged(Unknown Source)
+	at org.eclipse.ui.internal.AbstractSelectionService.fireSelection(Unknown Source)
+	at org.eclipse.ui.internal.AbstractSelectionService$1.selectionChanged(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer.flushSelectionEvents(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$1.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 2 2015-09-24 18:46:10.532
+!MESSAGE Se han producido problemas al invocar el código del plug-in: "org.eclipse.ui.views.properties.tabbed".
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.xtools.modeler.ui.properties.internal.sections.AttributeGeneralPropertySection.refreshTypeText(Unknown Source)
+	at com.ibm.xtools.modeler.ui.properties.internal.sections.AttributeGeneralPropertySection$9.run(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.core.internal.domain.MSLTransactionalEditingDomain.runExclusive(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.core.internal.domain.MSLEditingDomain.runExclusive(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.properties.sections.AbstractModelerPropertySection.executeAsReadAction(Unknown Source)
+	at com.ibm.xtools.modeler.ui.properties.internal.sections.AttributeGeneralPropertySection.refresh(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabContents$6.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(Unknown Source)
+	at org.eclipse.jface.util.SafeRunnable.run(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabContents.refresh(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabbedPropertySheetPage$SelectionChangedListener.selectionChanged(Unknown Source)
+	at org.eclipse.jface.viewers.Viewer$2.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(Unknown Source)
+	at org.eclipse.jface.util.SafeRunnable.run(Unknown Source)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(Unknown Source)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(Unknown Source)
+	at org.eclipse.jface.util.OpenStrategy.access$4(Unknown Source)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Unknown Source)
+	at org.eclipse.ui.internal.views.properties.tabbed.view.TabbedPropertyList.select(Unknown Source)
+	at org.eclipse.ui.internal.views.properties.tabbed.view.TabbedPropertyViewer.setSelectionToWidget(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelectionToWidget(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(Unknown Source)
+	at org.eclipse.jface.viewers.Viewer.setSelection(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabbedPropertySheetPage.setInput(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabbedPropertySheetPage.selectionChanged(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.properties.views.PropertiesBrowserPage.selectionChanged(Unknown Source)
+	at org.eclipse.ui.views.properties.PropertySheet.selectionChanged(Unknown Source)
+	at org.eclipse.ui.internal.AbstractSelectionService.fireSelection(Unknown Source)
+	at org.eclipse.ui.internal.AbstractSelectionService$1.selectionChanged(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer.flushSelectionEvents(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$1.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+
+!ENTRY com.ibm.xtools.modeler.ui.properties 4 6 2015-09-24 18:46:10.738
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.xtools.modeler.ui.properties.internal.sections.AggregationPropertySection$2.run(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.core.internal.domain.MSLTransactionalEditingDomain.runExclusive(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.core.internal.domain.MSLEditingDomain.runExclusive(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.properties.sections.AbstractModelerPropertySection.executeAsReadAction(Unknown Source)
+	at com.ibm.xtools.modeler.ui.properties.internal.sections.AggregationPropertySection.refresh(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabContents$6.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(Unknown Source)
+	at org.eclipse.jface.util.SafeRunnable.run(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabContents.refresh(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabbedPropertySheetPage$SelectionChangedListener.selectionChanged(Unknown Source)
+	at org.eclipse.jface.viewers.Viewer$2.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(Unknown Source)
+	at org.eclipse.jface.util.SafeRunnable.run(Unknown Source)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(Unknown Source)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(Unknown Source)
+	at org.eclipse.jface.util.OpenStrategy.access$4(Unknown Source)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Unknown Source)
+	at org.eclipse.ui.internal.views.properties.tabbed.view.TabbedPropertyList.select(Unknown Source)
+	at org.eclipse.ui.internal.views.properties.tabbed.view.TabbedPropertyViewer.setSelectionToWidget(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelectionToWidget(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(Unknown Source)
+	at org.eclipse.jface.viewers.Viewer.setSelection(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabbedPropertySheetPage.setInput(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabbedPropertySheetPage.selectionChanged(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.properties.views.PropertiesBrowserPage.selectionChanged(Unknown Source)
+	at org.eclipse.ui.views.properties.PropertySheet.selectionChanged(Unknown Source)
+	at org.eclipse.ui.internal.AbstractSelectionService.fireSelection(Unknown Source)
+	at org.eclipse.ui.internal.AbstractSelectionService$1.selectionChanged(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer.flushSelectionEvents(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$1.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 2 2015-09-24 18:46:11.006
+!MESSAGE Se han producido problemas al invocar el código del plug-in: "org.eclipse.ui.views.properties.tabbed".
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.xtools.modeler.ui.properties.internal.sections.AggregationPropertySection.setInput(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabContents$5.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(Unknown Source)
+	at org.eclipse.jface.util.SafeRunnable.run(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabContents.setInput(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabbedPropertySheetPage$SelectionChangedListener.selectionChanged(Unknown Source)
+	at org.eclipse.jface.viewers.Viewer$2.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(Unknown Source)
+	at org.eclipse.jface.util.SafeRunnable.run(Unknown Source)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(Unknown Source)
+	at org.eclipse.jface.viewers.Viewer.setSelection(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabbedPropertySheetPage.setInput(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabbedPropertySheetPage.selectionChanged(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.properties.views.PropertiesBrowserPage.selectionChanged(Unknown Source)
+	at org.eclipse.ui.views.properties.PropertySheet.selectionChanged(Unknown Source)
+	at org.eclipse.ui.internal.AbstractSelectionService.fireSelection(Unknown Source)
+	at org.eclipse.ui.internal.AbstractSelectionService$1.selectionChanged(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer.flushSelectionEvents(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$1.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 2 2015-09-24 18:46:11.077
+!MESSAGE Se han producido problemas al invocar el código del plug-in: "org.eclipse.ui.views.properties.tabbed".
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.xtools.modeler.ui.properties.internal.sections.AttributeGeneralPropertySection.refreshTypeText(Unknown Source)
+	at com.ibm.xtools.modeler.ui.properties.internal.sections.AttributeGeneralPropertySection$9.run(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.core.internal.domain.MSLTransactionalEditingDomain.runExclusive(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.core.internal.domain.MSLEditingDomain.runExclusive(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.properties.sections.AbstractModelerPropertySection.executeAsReadAction(Unknown Source)
+	at com.ibm.xtools.modeler.ui.properties.internal.sections.AttributeGeneralPropertySection.refresh(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabContents$6.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(Unknown Source)
+	at org.eclipse.jface.util.SafeRunnable.run(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabContents.refresh(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabbedPropertySheetPage$SelectionChangedListener.selectionChanged(Unknown Source)
+	at org.eclipse.jface.viewers.Viewer$2.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(Unknown Source)
+	at org.eclipse.jface.util.SafeRunnable.run(Unknown Source)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(Unknown Source)
+	at org.eclipse.jface.viewers.Viewer.setSelection(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabbedPropertySheetPage.setInput(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabbedPropertySheetPage.selectionChanged(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.properties.views.PropertiesBrowserPage.selectionChanged(Unknown Source)
+	at org.eclipse.ui.views.properties.PropertySheet.selectionChanged(Unknown Source)
+	at org.eclipse.ui.internal.AbstractSelectionService.fireSelection(Unknown Source)
+	at org.eclipse.ui.internal.AbstractSelectionService$1.selectionChanged(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer.flushSelectionEvents(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$1.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+
+!ENTRY com.ibm.xtools.modeler.ui.properties 4 6 2015-09-24 18:46:11.155
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.xtools.modeler.ui.properties.internal.sections.AggregationPropertySection$2.run(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.core.internal.domain.MSLTransactionalEditingDomain.runExclusive(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.core.internal.domain.MSLEditingDomain.runExclusive(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.properties.sections.AbstractModelerPropertySection.executeAsReadAction(Unknown Source)
+	at com.ibm.xtools.modeler.ui.properties.internal.sections.AggregationPropertySection.refresh(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabContents$6.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(Unknown Source)
+	at org.eclipse.jface.util.SafeRunnable.run(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabContents.refresh(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabbedPropertySheetPage$SelectionChangedListener.selectionChanged(Unknown Source)
+	at org.eclipse.jface.viewers.Viewer$2.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(Unknown Source)
+	at org.eclipse.jface.util.SafeRunnable.run(Unknown Source)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(Unknown Source)
+	at org.eclipse.jface.viewers.Viewer.setSelection(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabbedPropertySheetPage.setInput(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabbedPropertySheetPage.selectionChanged(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.properties.views.PropertiesBrowserPage.selectionChanged(Unknown Source)
+	at org.eclipse.ui.views.properties.PropertySheet.selectionChanged(Unknown Source)
+	at org.eclipse.ui.internal.AbstractSelectionService.fireSelection(Unknown Source)
+	at org.eclipse.ui.internal.AbstractSelectionService$1.selectionChanged(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer.flushSelectionEvents(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$1.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+!SESSION 2015-09-24 19:38:21.490 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows Vista x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_PE
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-09-24 19:47:05.218
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-09-24 19:47:05.233
+!MESSAGE La característica de la extensión no es válida
+!SESSION 2015-09-25 14:06:08.904 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows Vista x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_PE
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-09-25 14:06:43.842
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-09-25 14:06:43.874
+!MESSAGE La característica de la extensión no es válida
+!SESSION 2015-09-26 15:01:26.637 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows Vista x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_PE
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-09-26 15:02:19.054
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-09-26 15:02:19.086
+!MESSAGE La característica de la extensión no es válida
+!SESSION 2015-09-30 11:44:42.585 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows Vista x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -data D:\Proyectos\Diseño y Patrones de Software\Proyect_Buy_It\Documentos\Diagramas\Diagrama de clases\Buy it -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-09-30 11:44:45.005
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-09-30 11:44:45.005
+!MESSAGE La característica de la extensión no es válida
+!SESSION 2015-10-01 16:03:25.756 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows Vista x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-10-01 16:03:41.763
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-10-01 16:03:41.810
+!MESSAGE La característica de la extensión no es válida
+!SESSION 2015-10-02 13:55:08.404 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_PE
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-10-02 13:57:19.150
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-10-02 13:57:19.160
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.xtools.emf.ram.ui 4 0 2015-10-02 13:57:34.214
+!MESSAGE El Cliente RAM no está instalado. Instale el Cliente RAM para habilitar la funcionalidad de integración de RAM.
+!SESSION 2015-10-04 19:10:51.750 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_PE
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-10-04 19:11:08.962
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-10-04 19:11:08.978
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.xtools.emf.ram.ui 4 0 2015-10-04 19:11:16.794
+!MESSAGE El Cliente RAM no está instalado. Instale el Cliente RAM para habilitar la funcionalidad de integración de RAM.
+!SESSION 2015-10-19 22:53:00.775 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_PE
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-10-19 22:54:26.557
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-10-19 22:54:26.571
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.xtools.emf.ram.ui 4 0 2015-10-19 22:54:43.342
+!MESSAGE El Cliente RAM no está instalado. Instale el Cliente RAM para habilitar la funcionalidad de integración de RAM.
