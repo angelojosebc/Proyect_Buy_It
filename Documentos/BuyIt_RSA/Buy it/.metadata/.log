@@ -908,3 +908,39 @@ Caused by: org.eclipse.core.runtime.AssertionFailedException: null argument:fail
 	at org.eclipse.gmf.runtime.emf.commands.core.command.AbstractTransactionalCommand.doExecute(Unknown Source)
 	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(Unknown Source)
 	... 40 more
+!SESSION 2015-10-24 16:25:08.787 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_PE
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY com.ibm.xtools.emf.ram.ui 4 0 2015-10-24 16:25:18.396
+!MESSAGE El Cliente RAM no está instalado. Instale el Cliente RAM para habilitar la funcionalidad de integración de RAM.
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-10-24 16:25:25.929
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-10-24 16:25:25.929
+!MESSAGE La característica de la extensión no es válida
+!SESSION 2015-10-24 16:32:38.271 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_PE
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY com.ibm.xtools.emf.ram.ui 4 0 2015-10-24 16:32:43.920
+!MESSAGE El Cliente RAM no está instalado. Instale el Cliente RAM para habilitar la funcionalidad de integración de RAM.
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-10-24 16:32:49.211
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-10-24 16:32:49.212
+!MESSAGE La característica de la extensión no es válida
