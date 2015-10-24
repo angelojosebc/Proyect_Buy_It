@@ -761,3 +761,150 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational
 
 !ENTRY com.ibm.xtools.emf.index 2 9 2015-10-24 11:54:21.682
 !MESSAGE La característica de la extensión no es válida
+!SESSION 2015-10-24 14:25:55.057 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows Vista x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_PE
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -data C:\Users\Angelo\Documents\UPC\Ciclo_6\Diseño y patrones de software\Proyect_Buy_It\Documentos\BuyIt_RSA\Buy it\ -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2015-10-24 14:26:15.536
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2015-10-24 14:26:15.586
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2015-10-24 14:26:15.636
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2015-10-24 14:26:16.361
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-10-24 14:26:35.499
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2015-10-24 14:26:35.504
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.ccl.erf.ui.services 2 2 2015-10-24 14:39:05.033
+!MESSAGE IRJC0524I La memoria caché de la categoría no existe para C:\Users\Angelo\Documents\UPC\Ciclo_6\Diseño y patrones de software\Proyect_Buy_It\Documentos\BuyIt_RSA\Buy it\.metadata\.plugins\com.ibm.ccl.erf.repository\reporting_database\erf_category.categories; se crea la memoria caché.
+
+!ENTRY com.ibm.ccl.erf.ui.services 2 2 2015-10-24 14:39:05.049
+!MESSAGE IRJC0517I La memoria caché del repositorio no existe para C:\Users\Angelo\Documents\UPC\Ciclo_6\Diseño y patrones de software\Proyect_Buy_It\Documentos\BuyIt_RSA\Buy it\.metadata\.plugins\com.ibm.ccl.erf.repository\reporting_database\repository.repos, creando memoria caché.
+
+!ENTRY org.eclipse.gmf.runtime.diagram.ui 4 4 2015-10-24 15:02:24.319
+!MESSAGE execute
+!STACK 0
+org.eclipse.core.commands.ExecutionException: While executing the operation, an exception occurred
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(Unknown Source)
+	at org.eclipse.gef.tools.AbstractTool.executeCommand(Unknown Source)
+	at org.eclipse.gef.tools.AbstractTool.executeCurrentCommand(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.tools.DragEditPartsTrackerEx.executeCurrentCommand(Unknown Source)
+	at org.eclipse.gef.tools.DragEditPartsTracker.performDrag(Unknown Source)
+	at org.eclipse.gef.tools.DragEditPartsTracker.handleButtonUp(Unknown Source)
+	at org.eclipse.gef.tools.AbstractTool.mouseUp(Unknown Source)
+	at org.eclipse.gef.tools.SelectionTool.mouseUp(Unknown Source)
+	at org.eclipse.gef.EditDomain.mouseUp(Unknown Source)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseReleased(Unknown Source)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseUp(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+Caused by: org.eclipse.core.runtime.AssertionFailedException: null argument:failed to create a view
+	at org.eclipse.core.runtime.Assert.isNotNull(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.commands.CreateCommand.doExecuteWithResult(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.commands.core.command.AbstractTransactionalCommand.doExecute(Unknown Source)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.commands.ICommandProxy.execute(Unknown Source)
+	at org.eclipse.gef.commands.CompoundCommand.execute(Unknown Source)
+	at org.eclipse.gef.commands.CompoundCommand.execute(Unknown Source)
+	at com.ibm.xtools.uml.ui.diagram.internal.commands.DnDCreateViewElementsCommand.doExecuteWithResult(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.commands.core.command.AbstractTransactionalCommand.doExecute(Unknown Source)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(Unknown Source)
+	... 40 more
+
+!ENTRY org.eclipse.gmf.runtime.diagram.ui 4 4 2015-10-24 15:02:30.282
+!MESSAGE execute
+!STACK 0
+org.eclipse.core.commands.ExecutionException: While executing the operation, an exception occurred
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(Unknown Source)
+	at org.eclipse.gef.tools.AbstractTool.executeCommand(Unknown Source)
+	at org.eclipse.gef.tools.AbstractTool.executeCurrentCommand(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.tools.DragEditPartsTrackerEx.executeCurrentCommand(Unknown Source)
+	at org.eclipse.gef.tools.DragEditPartsTracker.performDrag(Unknown Source)
+	at org.eclipse.gef.tools.DragEditPartsTracker.handleButtonUp(Unknown Source)
+	at org.eclipse.gef.tools.AbstractTool.mouseUp(Unknown Source)
+	at org.eclipse.gef.tools.SelectionTool.mouseUp(Unknown Source)
+	at org.eclipse.gef.EditDomain.mouseUp(Unknown Source)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseReleased(Unknown Source)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseUp(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+Caused by: org.eclipse.core.runtime.AssertionFailedException: null argument:failed to create a view
+	at org.eclipse.core.runtime.Assert.isNotNull(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.commands.CreateCommand.doExecuteWithResult(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.commands.core.command.AbstractTransactionalCommand.doExecute(Unknown Source)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.commands.ICommandProxy.execute(Unknown Source)
+	at org.eclipse.gef.commands.CompoundCommand.execute(Unknown Source)
+	at org.eclipse.gef.commands.CompoundCommand.execute(Unknown Source)
+	at com.ibm.xtools.uml.ui.diagram.internal.commands.DnDCreateViewElementsCommand.doExecuteWithResult(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.commands.core.command.AbstractTransactionalCommand.doExecute(Unknown Source)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(Unknown Source)
+	... 40 more

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="99" version="2.0">
+<workbench progressCount="51" version="2.0">
 <workbenchAdvisor/>
 <window height="728" width="1024" x="75" y="0">
 <fastViewData fastViewLocation="1024">
@@ -45,7 +45,10 @@
 </view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Esquema"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Explorador de proyectos">
-<viewState CommonNavigator.LINKING_ENABLED="0" CommonNavigator.LINKING_ENABLED.delayed="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="com.ibm.etools.common.migration.view.MigrationValidationResultsView" partName="Resultados de la migración">
+<viewState/>
 </view>
 <view id="com.ibm.xtools.rmp.ui.diagram.layers.LayersView" partName="Capas">
 <viewState/>
@@ -60,7 +63,6 @@
 <alwaysOnActionSet id="com.ibm.ccl.help.preferenceharvester.actionSet1"/>
 <alwaysOnActionSet id="com.ibm.rational.welcome.core.webResourcesActionSet"/>
 <alwaysOnActionSet id="com.ibm.cic.licensing.common.ui.actionSet"/>
-<alwaysOnActionSet id="com.ibm.process.actionSet"/>
 <alwaysOnActionSet id="com.ibm.xtools.modeler.ui.navigator.actions.ModelingActionSet"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
@@ -74,13 +76,11 @@
 <alwaysOnActionSet id="com.ibm.ccl.soa.deploy.core.ui.navigator.deploymentNavigatorActionSet"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.analysisActionSet"/>
 <alwaysOnActionSet id="com.ibm.xtools.modeler.ui.actions.ModelingActionSet"/>
-<alwaysOnActionSet id="com.ibm.xtools.pluglets.ui.actionSet"/>
 <alwaysOnActionSet id="com.ibm.xtools.common.ui.reduction.modelingViewpointsActionSet"/>
 <alwaysOnActionSet id="com.ibm.xtools.publish.ui.internal.actions.PublishActionSet"/>
 <alwaysOnActionSet id="org.eclipse.gmf.runtime.diagram.ui.DiagramActionSet"/>
 <alwaysOnActionSet id="rmpSearchActionSet"/>
 <alwaysOnActionSet id="com.ibm.xtools.transform.ui.actionSet"/>
-<alwaysOnActionSet id="com.rational.clearcase.ActionSet"/>
 <show_view_action id="com.ibm.ccl.erf.ui.views.reportexplorer"/>
 <show_view_action id="com.ibm.xtools.modeler.ui.internal.ui.views.InheritanceExplorer"/>
 <show_view_action id="com.ibm.xtools.reqpro.ui.internal.views.explorer.RequirementExplorer"/>
@@ -113,6 +113,7 @@
 <view id="com.ibm.xtools.rmp.ui.diagram.layers.LayersView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="com.ibm.etools.common.migration.view.MigrationValidationResultsView"/>
 <fastViews>
 <view id="com.ibm.ccl.erf.ui.views.reportexplorer" ratio="0.25"/>
 <view id="com.ibm.xtools.mde.guidance" ratio="0.3"/>
@@ -138,10 +139,12 @@
 </info>
 <info part="com.ibm.xtools.reqpro.ui.internal.views.explorer.RequirementExplorer" ratio="0.26" ratioLeft="260" ratioRight="740" relationship="2" relative="projectExplorerArea"/>
 <info folder="true" part="underEditorArea" ratio="0.6589786" ratioLeft="400" ratioRight="207" relationship="4" relative="com.ibm.xtools.reqpro.ui.internal.views.explorer.RequirementExplorer">
-<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
+<folder activePageID="com.ibm.etools.common.migration.view.MigrationValidationResultsView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.PropertySheet" label="Propiedades"/>
+<page content="com.ibm.etools.common.migration.view.MigrationValidationResultsView" label="Resultados de la migración"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
 </presentation>
 </folder>
 </info>
