@@ -898,9 +898,11 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_3l5nEHpxEeWVYvk8rc-fxg" name="Solicitud_Compra" clientDependency="_ncfjcHqFEeWIsem987DkyQ">
       <generalization xmi:id="_eIMywHpzEeWVYvk8rc-fxg" general="_nXFa0HgbEeWLldzwz_cdqg"/>
       <ownedAttribute xmi:id="_7f3iQHpxEeWVYvk8rc-fxg" name="Nro_Solicitud" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_SEgM0HpyEeWVYvk8rc-fxg" name="ProveedorId" visibility="private" type="_16fCYWk_EeWKypdFuJFIgg"/>
+      <ownedAttribute xmi:id="_SEgM0HpyEeWVYvk8rc-fxg" name="ProveedorId" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
       <ownedAttribute xmi:id="_K9iaEHqGEeWIsem987DkyQ" name="orden_Compra" visibility="private" type="_lLFmsHpzEeWVYvk8rc-fxg" association="_K9ZQIHqGEeWIsem987DkyQ">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_K9ldYHqGEeWIsem987DkyQ" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_K9iaEXqGEeWIsem987DkyQ" value="1"/>
@@ -912,9 +914,11 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_pHz68HpzEeWVYvk8rc-fxg" name="Importe_Compra" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_qh7vkHpzEeWVYvk8rc-fxg" name="ProveedorId" visibility="private" type="_16fCYWk_EeWKypdFuJFIgg"/>
+      <ownedAttribute xmi:id="_qh7vkHpzEeWVYvk8rc-fxg" name="ProveedorId" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
       <ownedAttribute xmi:id="_K9cTcHqGEeWIsem987DkyQ" name="solicitud_Compra" visibility="private" type="_3l5nEHpxEeWVYvk8rc-fxg" association="_K9ZQIHqGEeWIsem987DkyQ">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_K9fWwXqGEeWIsem987DkyQ" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_K9fWwHqGEeWIsem987DkyQ" value="1"/>
@@ -924,7 +928,9 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_rxODAGJSEeWsfNysqj7CTQ" name="Usuario_Cliente">
       <generalization xmi:id="_vRBC4GLPEeW3_6HPxwpEew" general="_n7fHkGJSEeWsfNysqj7CTQ"/>
-      <ownedAttribute xmi:id="_fXuqkGPCEeWssoHhIYsBAA" name="ClienteId" visibility="private" type="_16fCYWk_EeWKypdFuJFIgg"/>
+      <ownedAttribute xmi:id="_fXuqkGPCEeWssoHhIYsBAA" name="ClienteId" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
       <ownedAttribute xmi:id="_jMD30GPCEeWssoHhIYsBAA" name="DNI" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
@@ -1003,7 +1009,7 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="__uOF8GlCEeWKypdFuJFIgg" name="Importe_Total" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_7VnzkXggEeWLldzwz_cdqg" name="tipo_Pago" visibility="private" type="_QbEH8GMHEeW3_6HPxwpEew" association="_7VnzkHggEeWLldzwz_cdqg">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7Vnzk3ggEeWLldzwz_cdqg" value="1"/>
@@ -1062,7 +1068,7 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_OFaYwGPDEeWssoHhIYsBAA" name="CodigoPostal" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_PzN-YGPDEeWssoHhIYsBAA" name="Pagina_Web" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -1078,16 +1084,16 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_rDLvoGPDEeWssoHhIYsBAA" name="Codigo_catalogo" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_xXGkwGPDEeWssoHhIYsBAA" name="Copia_DNI" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_z2VnUGPDEeWssoHhIYsBAA" name="Titular_cuenta" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_3aBwgGPDEeWssoHhIYsBAA" name="Numero_cuenta" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_8FJb0GPDEeWssoHhIYsBAA" name="Banco" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -1105,14 +1111,18 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kt11oWr_EeWGabVXu-3aFA" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kt11oGr_EeWGabVXu-3aFA" value="1"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_tyOAMGr_EeWGabVXu-3aFA" name="ClienteId" visibility="private" type="_16fCYWk_EeWKypdFuJFIgg"/>
-      <ownedAttribute xmi:id="_1x3-YGr_EeWGabVXu-3aFA" name="ProductoId" visibility="private" type="_16fCYWk_EeWKypdFuJFIgg"/>
+      <ownedAttribute xmi:id="_tyOAMGr_EeWGabVXu-3aFA" name="ClienteId" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1x3-YGr_EeWGabVXu-3aFA" name="ProductoId" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
       <ownedOperation xmi:id="_zKK7QHp0EeWVYvk8rc-fxg" name="Registrar_Producto_Favorito"/>
       <ownedOperation xmi:id="_1FR9EHp0EeWVYvk8rc-fxg" name="Eliminar_Producto_Favorito"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_-y8fsGLPEeW3_6HPxwpEew" name="Producto" clientDependency="_XG9DwGk_EeWKypdFuJFIgg">
       <ownedAttribute xmi:id="_Z6LYoGMFEeW3_6HPxwpEew" name="ProductoId" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_cQkBMGMFEeW3_6HPxwpEew" name="Nombre" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -1121,13 +1131,13 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_jYOncGMFEeW3_6HPxwpEew" name="Stock" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_mIg9wGMFEeW3_6HPxwpEew" name="PrecioUnitario" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_tfCfYGMFEeW3_6HPxwpEew" name="CategoriaId" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_GjvCAGL9EeW3_6HPxwpEew" name="proveedor" visibility="private" type="_sPLKUGJSEeWsfNysqj7CTQ" association="_GjcHEGL9EeW3_6HPxwpEew">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Gj4zAWL9EeW3_6HPxwpEew" value="1"/>
@@ -1145,8 +1155,12 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_idTWYWr_EeWGabVXu-3aFA" value="*"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_idTWYGr_EeWGabVXu-3aFA" value="1"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_qkYRgHpxEeWVYvk8rc-fxg" name="StockMinimo" visibility="private" type="_16fCYWk_EeWKypdFuJFIgg"/>
-      <ownedAttribute xmi:id="_tA4JIHpxEeWVYvk8rc-fxg" name="StockMaximo" visibility="private" type="_16fCYWk_EeWKypdFuJFIgg"/>
+      <ownedAttribute xmi:id="_qkYRgHpxEeWVYvk8rc-fxg" name="StockMinimo" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_tA4JIHpxEeWVYvk8rc-fxg" name="StockMaximo" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
       <ownedOperation xmi:id="_yNz90GMUEeWU_-qtnAXlew" name="Registrar_producto">
         <ownedParameter xmi:id="_0td3IGMUEeWU_-qtnAXlew" name="Parámetro1" direction="return">
           <type xmi:type="uml:PrimitiveType" href="pathmap://ROSE_LIBRARIES/RoseCppDatatypes.emx#_-myHoFKdEdmRuMDTJ25wMw?RoseCppDatatypes/void?"/>
@@ -1169,11 +1183,13 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_B0HKoGLQEeW3_6HPxwpEew" value="1"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_lCiXsGMGEeW3_6HPxwpEew" name="Cantidad" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_Zi8H4GMGEeW3_6HPxwpEew" name="Solicitud_Id" visibility="private" type="_16fCYWk_EeWKypdFuJFIgg"/>
+      <ownedAttribute xmi:id="_Zi8H4GMGEeW3_6HPxwpEew" name="Solicitud_Id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
       <ownedAttribute xmi:id="_cszb0GMGEeW3_6HPxwpEew" name="ProductoId" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_B0HKomLQEeW3_6HPxwpEew" name="descripcion_Carrito_Compra2" visibility="private" type="_2ZRfAGLPEeW3_6HPxwpEew" association="_BzXjwGLQEeW3_6HPxwpEew">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_B0Q7oWLQEeW3_6HPxwpEew" value="1"/>
@@ -1198,13 +1214,13 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_F5_RkHgeEeWLldzwz_cdqg" name="Detalle_Carrito">
       <generalization xmi:id="_9bjawHgfEeWLldzwz_cdqg" general="_2ZRfAGLPEeW3_6HPxwpEew"/>
       <ownedAttribute xmi:id="_YAeV0HgeEeWLldzwz_cdqg" name="Importe" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
       </ownedAttribute>
       <ownedOperation xmi:id="_BLwycHgfEeWLldzwz_cdqg" name="Calcular_Importe"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_orxVAGJSEeWsfNysqj7CTQ" name="Categoria">
       <ownedAttribute xmi:id="_RX4K8GMGEeW3_6HPxwpEew" name="CategoriaId" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_Tq59gGMGEeW3_6HPxwpEew" name="Nombre" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -1237,17 +1253,17 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_7GNDMGMGEeW3_6HPxwpEew" name="Importe_Total" visibility="private">
-        <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKGBykGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/float?"/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_G83aEGMFEeW3_6HPxwpEew" name="Carrito_compraId" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_-FCnMHggEeWLldzwz_cdqg" name="detalle_Carrito" visibility="private" type="_F5_RkHgeEeWLldzwz_cdqg" aggregation="composite" association="_-E5dQHggEeWLldzwz_cdqg">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-FCnMnggEeWLldzwz_cdqg" value="*"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-FCnMXggEeWLldzwz_cdqg" value="1"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_WJPKkHgiEeWLldzwz_cdqg" name="ClienteId" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
       <ownedOperation xmi:id="_cPZlwGMUEeWU_-qtnAXlew" name="Calcular_Importe_Total">
         <ownedParameter xmi:id="_okSe0GMUEeWU_-qtnAXlew" name="Parámetro1" direction="return">
@@ -1279,11 +1295,15 @@
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_Q7OaQGL9EeW3_6HPxwpEew" name="Calificacion_Producto">
-      <ownedAttribute xmi:id="_UGCIYGMIEeW3_6HPxwpEew" name="Puntuacion" visibility="protected" type="_16fCYWk_EeWKypdFuJFIgg"/>
+      <ownedAttribute xmi:id="_UGCIYGMIEeW3_6HPxwpEew" name="Puntuacion" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
       <ownedAttribute xmi:id="_xTdE0GMIEeW3_6HPxwpEew" name="Observación" visibility="protected">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_kb8u8Gk_EeWKypdFuJFIgg" name="ProductoId" visibility="private" type="_16fCYWk_EeWKypdFuJFIgg"/>
+      <ownedAttribute xmi:id="_kb8u8Gk_EeWKypdFuJFIgg" name="ProductoId" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
       <ownedAttribute xmi:id="_mxS1tGk_EeWKypdFuJFIgg" name="producto" visibility="private" type="_-y8fsGLPEeW3_6HPxwpEew" association="_mxS1sGk_EeWKypdFuJFIgg">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mxY8UWk_EeWKypdFuJFIgg" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mxY8UGk_EeWKypdFuJFIgg" value="1"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="108" version="2.0">
+<workbench progressCount="132" version="2.0">
 <workbenchAdvisor/>
 <window height="728" maximized="true" width="1024" x="295" y="0">
 <fastViewData fastViewLocation="1024">
@@ -37,10 +37,15 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
+<editor id="com.ibm.xtools.modeler.ui.editors.internal.ModelEditor" name="Paquete de negocio en blanco.emx" partName="Paquete de negocio en blanco.emx" path="C:/Users/Angelo/Documents/UPC/Ciclo_6/Diseño y patrones de software/Proyect_Buy_It/Documentos/BuyIt_RSA/Buy it/Ventas_BuyIt/Paquete de negocio en blanco.emx" title="Paquete de negocio en blanco.emx" tooltip="Ventas_BuyIt/Paquete de negocio en blanco.emx" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Ventas_BuyIt/Paquete de negocio en blanco.emx"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Propiedades">
@@ -48,7 +53,7 @@
 </view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Esquema"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Explorador de proyectos">
-<viewState CommonNavigator.LINKING_ENABLED="0" CommonNavigator.LINKING_ENABLED.delayed="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
 <view id="com.ibm.xtools.rmp.ui.diagram.layers.LayersView" partName="Capas">
 <viewState/>
@@ -82,9 +87,6 @@
 <alwaysOnActionSet id="org.eclipse.gmf.runtime.diagram.ui.DiagramActionSet"/>
 <alwaysOnActionSet id="rmpSearchActionSet"/>
 <alwaysOnActionSet id="com.ibm.xtools.transform.ui.actionSet"/>
-<alwaysOnActionSet id="com.ibm.xtools.pluglets.ui.actionSet"/>
-<alwaysOnActionSet id="com.rational.clearcase.ActionSet"/>
-<alwaysOnActionSet id="com.ibm.process.actionSet"/>
 <show_view_action id="com.ibm.ccl.erf.ui.views.reportexplorer"/>
 <show_view_action id="com.ibm.xtools.modeler.ui.internal.ui.views.InheritanceExplorer"/>
 <show_view_action id="com.ibm.xtools.rmp.ui.diagram.layers.LayersView"/>
@@ -135,7 +137,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.1785978" ratioLeft="242" ratioRight="1113" relationship="2" relative="projectExplorerArea"/>
+<info part="org.eclipse.ui.editorss" ratio="0.2" ratioLeft="271" ratioRight="1084" relationship="2" relative="projectExplorerArea"/>
 <info folder="true" part="underEditorArea" ratio="0.65841585" ratioLeft="399" ratioRight="207" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.PropertySheet" label="Propiedades"/>
