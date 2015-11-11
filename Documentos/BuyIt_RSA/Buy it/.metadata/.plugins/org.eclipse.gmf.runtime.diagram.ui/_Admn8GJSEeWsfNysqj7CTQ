@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 #Wed Nov 11 12:29:49 COT 2015
 viewport.x=-191
 zoom=0.75
+=======
+#Sat Oct 24 16:37:32 COT 2015
+viewport.x=-137
+zoom=1.0
+>>>>>>> b402585a7300e55fee18a482995bf2e183b04be7
 print.margin.right=0.5
 rulergrid.rulerunit=1
 rulergrid.snaptogrid=true
@@ -16,4 +22,8 @@ rulergrid.gridlevel=true
 print.margin.top=0.5
 print.useMillim=true
 print.usePortrait=true
+<<<<<<< HEAD
 viewport.y=0
+=======
+viewport.y=46
+>>>>>>> b402585a7300e55fee18a482995bf2e183b04be7
